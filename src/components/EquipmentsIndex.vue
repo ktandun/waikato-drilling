@@ -3,7 +3,7 @@
     <div class="primary header">OUR EQUIPMENT</div>
     <div class="grid">
       <div class="flex flex-col equipment-card">
-        <img class="title-image" src="/images/ditch-witch-at40.png" loading="lazy" />
+        <img class="title-image" :src="at40Img" loading="lazy" />
         <div class="flex flex-col justify-between equipment-description padding-responsive">
           <div>
             <div class="title">DITCH WITCH AT40</div>
@@ -18,7 +18,7 @@
         <img class="cutout logo" :src="logoSmall" height="35" width="35" loading="lazy" />
       </div>
       <div class="flex flex-col equipment-card">
-        <img class="title-image" src="/images/ditch-witch-jt25.png" loading="lazy" />
+        <img class="title-image" :src="jt25Img" loading="lazy" />
         <div class="flex flex-col justify-between equipment-description padding-responsive">
           <div>
             <div class="title">DITCH WITCH JT25</div>
@@ -39,6 +39,8 @@
 <script setup lang="ts">
 import logoSmall from '@/assets/logo-small.svg'
 import cardCutout from '@/assets/card-cutout.svg'
+import at40Img from '@/assets/ditch-witch-at40.png'
+import jt25Img from '@/assets/ditch-witch-jt25.png'
 </script>
 
 <style scoped>

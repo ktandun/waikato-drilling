@@ -6,23 +6,23 @@
       </div>
       <div class="flex flex-col-small-row justify-between align-center gap-32">
         <div class="values-icons">
-          <img src="/images/safe.svg" loading="lazy" />
+          <img :src="safeImg" loading="lazy" />
           <div class="font-size-6 text-center">SAFE</div>
         </div>
         <div class="values-icons">
-          <img src="/images/costeffective.svg" loading="lazy" />
+          <img :src="costEffectiveImg" loading="lazy" />
           <div class="font-size-6 text-center">COST EFFECTIVE</div>
         </div>
         <div class="values-icons">
-          <img src="/images/efficient.svg" loading="lazy" />
+          <img :src="efficientImg" loading="lazy" />
           <div class="font-size-6 text-center">EFFICIENT</div>
         </div>
         <div class="values-icons">
-          <img src="/images/environmentallyfriendly.svg" loading="lazy" />
+          <img :src="envFriendlyImg" loading="lazy" />
           <div class="font-size-6 text-center">ENVIRONMENTALLY FRIENDLY</div>
         </div>
         <div class="values-icons">
-          <img src="/images/highquality.svg" loading="lazy" />
+          <img :src="highQualityImg" loading="lazy" />
           <div class="font-size-6 text-center">HIGH QUALITY</div>
         </div>
       </div>
@@ -30,7 +30,13 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import safeImg from '@/assets/safe.svg'
+import costEffectiveImg from '@/assets/costeffective.svg'
+import efficientImg from '@/assets/efficient.svg'
+import envFriendlyImg from '@/assets/environmentallyfriendly.svg'
+import highQualityImg from '@/assets/highquality.svg'
+</script>
 
 <style scoped>
 /* why-choose-us */

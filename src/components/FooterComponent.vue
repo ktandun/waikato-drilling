@@ -75,9 +75,9 @@
         <div class="flex justify-between flex-col-small-row content">
           <p class="font-bold text-white">Waikato Drilling - All Rights Reserved</p>
           <div class="flex flex-col-small-row images">
-            <div><img src="/images/sheprequal.png" height="42" loading="lazy" /></div>
-            <div><img src="/images/sitewise.jpg" height="42" loading="lazy" /></div>
-            <div><img src="/images/impacprequal.jpg" height="42" loading="lazy" /></div>
+            <div><img :src="sheprequal" height="42" loading="lazy" /></div>
+            <div><img :src="sitewise" height="42" loading="lazy" /></div>
+            <div><img :src="impacprequal" height="42" loading="lazy" /></div>
           </div>
         </div>
       </div>
@@ -87,6 +87,9 @@
 
 <script setup lang="ts">
 import logoLarge from '@/assets/logo-large.png'
+import sheprequal from '@/assets/sheprequal.png'
+import sitewise from '@/assets/sitewise.jpg'
+import impacprequal from '@/assets/impacprequal.jpg'
 </script>
 
 <style scoped>
