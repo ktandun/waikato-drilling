@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-us">
+  <div class="contact-us page-padding">
     <div class="wrapper">
       <p class="title">Let us take care of your next project!</p>
       <div class="form-input">
@@ -66,8 +66,6 @@ const submit = async () => {
 <style scoped>
 .contact-us {
   background-color: var(--dark);
-  padding-left: var(--default-padding);
-  padding-right: var(--default-padding);
   padding-top: 170px;
   padding-bottom: 170px;
 
