@@ -4,43 +4,14 @@
       <div class="hero-text">
         HORIZONTAL DIRECTIONAL DRILLING SPECIALISTS
         <div>
-          <button class="primary">CONTACT US</button>
+          <router-link :to="{ name: 'contact' }">
+            <button class="primary">CONTACT US</button>
+          </router-link>
         </div>
       </div>
     </div>
 
-    <!-- navbar -->
-    <div class="navbar-wrapper">
-      <div class="navbar padding-responsive">
-        <a href="/">
-          <picture>
-            <source media="(min-width: 768px)" :srcset="logoMedium" />
-            <img :src="logoSmall" alt="logo" />
-          </picture>
-        </a>
-        <div class="flex nav-links">
-          <a href="#" class="nav-link">CONTACT</a>
-          <a href="javascript:toggleNav();" class="hamburger-menu">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="#ffffff"
-              style="width: 18px; height: 18px"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="nav-links-mobile padding-responsive">
-        <a href="#">CONTACT</a>
-      </div>
-    </div>
+    <DefaultNavbar :border="false"></DefaultNavbar>
 
     <div class="footer-wrapper">
       <div class="hero-footer padding-responsive flex">
@@ -106,8 +77,7 @@
 </template>
 
 <script setup lang="ts">
-import logoMedium from '@/assets/logo-medium.svg'
-import logoSmall from '@/assets/logo-small.svg'
+import DefaultNavbar from './DefaultNavbar.vue'
 </script>
 
 <style lang="css" scoped>

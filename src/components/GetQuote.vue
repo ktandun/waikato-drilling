@@ -3,7 +3,9 @@
   <div class="get-quote flex-col-small-row bg-primary flex section">
     <div class="header">GET A FREE QUOTE</div>
     <div>
-      <button class="dark">CONTACT US</button>
+      <router-link :to="{ name: 'contact' }">
+        <button class="dark">CONTACT US</button>
+      </router-link>
     </div>
   </div>
 </template>

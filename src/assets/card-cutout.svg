@@ -15,7 +15,7 @@
     xmlns:svg="http://www.w3.org/2000/svg">
     <sodipodi:namedview
         id="namedview1"
-        pagecolor="#111"
+        pagecolor="#1b1b1b"
         bordercolor="#070606"
         borderopacity="0.25"
         inkscape:showpageshadow="2"
@@ -80,19 +80,19 @@
             x="79.736359"
             y="151.3" />
         <circle
-            style="fill:#111;stroke-width:0.264583"
+            style="fill:#1b1b1b;stroke-width:0.264583"
             id="path3"
             cx="80.258003"
             cy="149.017"
             r="10" />
         <circle
-            style="fill:#111;stroke-width:0.264583"
+            style="fill:#1b1b1b;stroke-width:0.264583"
             id="path3-0"
             cx="152.83299"
             cy="114.043"
             r="10" />
         <rect
-            style="fill:#111;stroke-width:0.213953"
+            style="fill:#1b1b1b;stroke-width:0.213953"
             id="rect4"
             width="7.1147337"
             height="5.4207497"

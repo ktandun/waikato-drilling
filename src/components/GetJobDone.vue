@@ -21,9 +21,6 @@
           optimised resourcing and sequencing for your project. We always endeavour to save you
           money without compromising high standards.
         </p>
-        <div>
-          <button class="outline">SEE PROJECTS</button>
-        </div>
       </div>
       <div class="flex flex-col gap-32 flex-1">
         <img :src="getJobDone2" loading="lazy" />
