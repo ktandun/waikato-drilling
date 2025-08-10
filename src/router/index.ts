@@ -1,9 +1,9 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import LandingPage from '@/views/LandingPage.vue'
 import ContactPage from '@/views/ContactPage.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
@@ -16,6 +16,9 @@ const router = createRouter({
       component: ContactPage,
     },
   ],
+  scrollBehavior() {
+    return { top: 0, left: 0 }
+  },
 })
 
 export default router
