@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="786.71869"
+   height="83.791435"
+   viewBox="0 0 786.71867 83.791436"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.0493876"
+     inkscape:cx="607.49717"
+     inkscape:cy="-252.52824"
+     inkscape:window-width="2560"
+     inkscape:window-height="1387"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-237.28125,-684.20858)">
+    <rect
+       style="fill:#5e5e5e;fill-opacity:0;stroke:#ff0000"
+       id="rect3"
+       width="8.286705"
+       height="8.286705"
+       x="1079.6393"
+       y="-131.40347"
+       inkscape:label="rect3" />
+    <rect
+       style="fill:#070606;fill-opacity:1;stroke:#5e5e5e;stroke-opacity:1"
+       id="rect10"
+       width="817.61963"
+       height="91.481949"
+       x="230.61069"
+       y="680.39685" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <path
+       style="fill:#5e5e5e;fill-opacity:0;stroke:#5e5e5e;stroke-width:0.494969;stroke-opacity:1"
+       d="M 866.21949,629.89118 V 828.10203"
+       id="path8"
+       transform="translate(-237.28125,-684.20858)" />
+    <path
+       style="fill:#5e5e5e;fill-opacity:0;stroke:#5e5e5e;stroke-width:0.479335;stroke-opacity:1"
+       d="m 883.84883,633.70293 v 183.9168"
+       id="path9"
+       inkscape:label="path9"
+       transform="translate(-237.28125,-684.20858)" />
+    <path
+       style="fill:#5e5e5e;fill-opacity:0;stroke:#5e5e5e;stroke-width:0.484352;stroke-opacity:1"
+       d="M 934.83094,634.65587 V 823.33735"
+       id="path10"
+       inkscape:label="path10"
+       transform="translate(-237.28125,-684.20858)" />
+  </g>
+</svg>
