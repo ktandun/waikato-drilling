@@ -39,8 +39,8 @@
 <script setup lang="ts">
 import logoSmall from '@/assets/logo-small.svg'
 import cardCutout from '@/assets/card-cutout.svg'
-import at40Img from '@/assets/ditch-witch-at40.png'
-import jt25Img from '@/assets/ditch-witch-jt25.png'
+import at40Img from '@/assets/ditch-witch-at40-800w.png'
+import jt25Img from '@/assets/ditch-witch-jt25-800w.png'
 </script>
 
 <style scoped>

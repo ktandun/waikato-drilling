@@ -84,7 +84,7 @@ import DefaultNavbar from './DefaultNavbar.vue'
 /* hero */
 .hero {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('@/assets/hero.jpg');
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('@/assets/hero-800w.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,6 +154,11 @@ import DefaultNavbar from './DefaultNavbar.vue'
 }
 
 @media (min-width: 1200px) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('@/assets/hero-1200w.jpg');
+  }
+
   .hero .hero-text-wrapper {
     position: absolute;
     top: var(--padding);
@@ -166,6 +171,27 @@ import DefaultNavbar from './DefaultNavbar.vue'
   .hero-text-wrapper .hero-text {
     font-size: var(--heading-1);
     max-width: 600px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('@/assets/hero-1600w.jpg');
+  }
+}
+
+@media (min-width: 2000px) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('@/assets/hero-2000w.jpg');
+  }
+}
+
+@media (min-width: 2500px) {
+  .hero {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('@/assets/hero-3000w.jpg');
   }
 }
 </style>

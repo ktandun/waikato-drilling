@@ -24,7 +24,7 @@
 </template>
 
 <script setup lang="ts">
-import letsGetJobDone from '@/assets/lets-get-job-done.jpg'
+import letsGetJobDone from '@/assets/lets-get-job-done-1200w.jpg'
 import calculator from '@/assets/calculator.png'
 import quickdelivery from '@/assets/quickdelivery.png'
 import committed from '@/assets/committed.png'

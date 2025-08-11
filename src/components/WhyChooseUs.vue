@@ -43,7 +43,7 @@ import highQualityImg from '@/assets/highquality.svg'
 .why-choose-us {
   padding: 100px 0;
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('@/assets/why-choose-us.jpg');
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('@/assets/why-choose-us-1600w.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

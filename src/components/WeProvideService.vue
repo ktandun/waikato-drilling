@@ -23,7 +23,7 @@
 
 <script setup lang="ts">
 import logoLarge from '@/assets/logo-large.png'
-import weProvideService from '@/assets/we-provide-top-tier-service.jpg'
+import weProvideService from '@/assets/we-provide-top-tier-service-800w.jpg'
 </script>
 
 <style scoped>

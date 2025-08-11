@@ -31,9 +31,9 @@
 </template>
 
 <script setup lang="ts">
-import getJobDone1 from '@/assets/get-job-done-1.jpg'
-import getJobDone2 from '@/assets/get-job-done-2.jpg'
-import getJobDone3 from '@/assets/get-job-done-3.jpg'
+import getJobDone1 from '@/assets/get-job-done-1-1200w.jpg'
+import getJobDone2 from '@/assets/get-job-done-2-800w.jpg'
+import getJobDone3 from '@/assets/get-job-done-3-800w.jpg'
 </script>
 
 <style scoped>

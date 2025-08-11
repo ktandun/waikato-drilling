@@ -8,6 +8,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig(({ command, mode }) => {
   let base = '/'
 
+  console.log(mode)
+
   if (command === 'build' && mode === 'staging') {
     base = '/waikato-drilling/'
   }
