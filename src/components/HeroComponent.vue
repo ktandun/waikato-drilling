@@ -85,6 +85,7 @@ import DefaultNavbar from './DefaultNavbar.vue'
 .hero {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('@/assets/hero.jpg');
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;

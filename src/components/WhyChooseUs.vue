@@ -45,6 +45,7 @@ import highQualityImg from '@/assets/highquality.svg'
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('@/assets/why-choose-us.jpg');
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }

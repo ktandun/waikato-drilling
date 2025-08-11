@@ -43,6 +43,7 @@ import committed from '@/assets/committed.png'
 .lets-get-job-done-description {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('@/assets/dark-bg.png');
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
