@@ -36,13 +36,36 @@ const nameError = ref(false)
 const emailError = ref(false)
 const messageError = ref(false)
 
-const submit = async () => {
+const sendPost = async (
+  name: { value: string },
+  email: { value: string },
+  message: { value: string },
+) => {
   const payload = {
     name: name.value,
     email: email.value,
     message: message.value,
+    source: 'Waikato Drilling',
   }
 
+  try {
+    const response = await fetch('http://134.199.162.132:5000/', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(payload),
+    })
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`)
+    }
+  } catch (error) {
+    console.error('Error:', error)
+  }
+}
+
+const submit = async () => {
   if (!name.value) {
     nameError.value = true
   }
@@ -59,7 +82,11 @@ const submit = async () => {
     return
   }
 
-  console.log(payload)
+  nameError.value = false
+  emailError.value = false
+  messageError.value = false
+
+  await sendPost(name, email, message)
 }
 </script>
 
