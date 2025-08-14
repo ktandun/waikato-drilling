@@ -61,6 +61,10 @@
     color: var(--white);
     gap: 32px;
   }
+
+  & li {
+    list-style-position: inside;
+  }
 }
 
 @media (min-width: 768px) {
