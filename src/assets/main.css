@@ -265,6 +265,14 @@ button:hover {
   transform: scale(1.02);
 }
 
+button.success {
+  background-color: green;
+  border: 0px;
+  clip-path: polygon(10% 0, 100% 0, 100% 80%, 90% 100%, 0 100%, 0 20%, 10% 0%);
+  color: var(--white);
+  font-family: var(--font-roboto);
+}
+
 button.primary {
   background-color: var(--primary);
   border: 0px;

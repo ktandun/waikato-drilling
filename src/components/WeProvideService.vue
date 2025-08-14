@@ -7,7 +7,7 @@
         <span class="upperline">WE PROVIDE TOP TIER SERVICE</span>
       </div>
       <p>
-        Based in mighty Waikato we operate throughout the North Island in Horizontal Directional
+        Based in the mighty Waikato we operate throughout the North Island in Horizontal Directional
         Drilling using our top of the line and modern plant and equipment.
         <br />
         <br />

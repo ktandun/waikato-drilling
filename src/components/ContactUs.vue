@@ -19,7 +19,7 @@
       </div>
 
       <div>
-        <button class="primary" @click="submit">Send Message</button>
+        <button :class="buttonClass" @click="submit">{{ buttonText }}</button>
       </div>
     </div>
   </div>
@@ -31,6 +31,8 @@ import { ref } from 'vue'
 const name = ref('')
 const email = ref('')
 const message = ref('')
+const buttonText = ref('Send Message')
+const buttonClass = ref('primary')
 
 const nameError = ref(false)
 const emailError = ref(false)
@@ -49,7 +51,7 @@ const sendPost = async (
   }
 
   try {
-    const response = await fetch('http://134.199.162.132:5000/', {
+    const response = await fetch('https://flask.hellyeahh.work/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -87,6 +89,13 @@ const submit = async () => {
   messageError.value = false
 
   await sendPost(name, email, message)
+  buttonText.value = 'Sent!'
+  buttonClass.value = 'success'
+
+  setTimeout(() => {
+    buttonText.value = 'Send Message'
+    buttonClass.value = 'primary'
+  }, 1000)
 }
 </script>
 

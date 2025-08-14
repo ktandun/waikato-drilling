@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col use-equipments">
     <div class="header">
-      WE USE THE MOST <span class="primary">ADVANCED</span> AND
-      <span class="primary">LATEST EQUIPMENT </span>AVAILABLE
+      WE USE THE MOST <span class="primary">ADVANCED PLANT</span> AND
+      <span class="primary">EQUIPMENT </span>AVAILABLE
     </div>
     <div>
       <p>
