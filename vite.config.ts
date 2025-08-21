@@ -3,6 +3,7 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
+import generateSitemap from 'vite-ssg-sitemap'
 
 // https://vite.dev/config/
 export default defineConfig(({ command, mode }) => {
@@ -16,6 +17,11 @@ export default defineConfig(({ command, mode }) => {
 
   return {
     base,
+    ssgOptions: {
+      onFinished() {
+        generateSitemap({ hostname: 'https://www.waikatodrilling.co.nz' })
+      },
+    },
     plugins: [vue(), vueDevTools()],
     resolve: {
       alias: {

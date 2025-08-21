@@ -1,14 +1,14 @@
 <template>
   <div class="hero">
     <div class="hero-text-wrapper">
-      <div class="hero-text">
+      <h1 class="hero-text">
         HORIZONTAL DIRECTIONAL DRILLING SPECIALISTS
         <div>
           <router-link :to="{ name: 'contact' }">
             <button class="primary">CONTACT US</button>
           </router-link>
         </div>
-      </div>
+      </h1>
     </div>
 
     <DefaultNavbar :border="false"></DefaultNavbar>
